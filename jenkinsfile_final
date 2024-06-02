@@ -78,7 +78,7 @@ pipeline {
                     git config user.email "37preethareddy@gmail.com"
                     git config user.name "PreethaRedd"
                     BUILD_NUMBER=${BUILD_NUMBER}
-                    sed -i "s/batch13:.*/batch13:${BUILD_NUMBER}/g" deploymentfiles/deployment.yml
+                    sed -i "s/ci-cd:.*/ci-cd:${BUILD_NUMBER}/g" deploymentfiles/deployment.yml
                     git add .
                     
                     git commit -m "Update deployment image to version ${BUILD_NUMBER}"
