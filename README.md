@@ -1,1 +1,1 @@
-# mindcircuit13 - SAMPLE APP
+# Preethareddy - sample app
